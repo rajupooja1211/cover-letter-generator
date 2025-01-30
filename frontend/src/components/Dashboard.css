@@ -1,0 +1,121 @@
+.dashboard {
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+    
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    background: linear-gradient(45deg, #0f3460, #533483, #0f3460);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientText 3s linear infinite, scrollDown 2s ease-in-out infinite;
+    font-weight: 900;
+    opacity: 0.95;
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 95%;
+    max-width: 900px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes scrollDown {
+    0% {
+        transform: translate(-50%, 0);
+    }
+    50% {
+        transform: translate(-50%, 8px);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+
+@keyframes gradientText {
+    to {
+        background-position: 200% center;
+    }
+}
+
+p {
+    font-size: 1.4rem;
+    color: #2a2a2a;
+    line-height: 1.9;
+    margin-bottom: 30px;
+    text-align: justify;
+    animation: textReveal 0.8s ease-out backwards;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 0;
+    animation: actionsFade 1s ease-out 0.5s backwards;
+    margin-top: 300px;
+}
+
+@keyframes actionsFade {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn {
+    background: linear-gradient(45deg, #0f3460, #533483);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 15px rgba(15, 52, 96, 0.5);
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #533483, #0f3460);
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 25px rgba(15, 52, 96, 0.7);
+}

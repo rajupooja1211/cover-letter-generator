@@ -1,0 +1,130 @@
+.view-cover-letters-container {
+    width: 50%;
+    margin-top: -100px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height:50%;
+    transform: translate(-50%, -50%);
+}
+.background {
+    
+   
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh; 
+    width: 100% ;
+}
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounceOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+}
+
+.empty {
+    color: #533483;
+    text-align: center;
+    display: flex;
+    font-size: 55px;
+    font-weight: 600;
+    animation: bounceIn 1s forwards infinite; /* Default animation when it appears */
+}
+
+/* Add a class for bounceOut */
+.empty.bounceOut {
+    animation: bounceOut 1s forwards infinite;
+}
+
+
+
+.View {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: -20px -20px 30px;
+    margin-left: 22rem;
+    padding: 30px 0;
+    background: linear-gradient(45deg, #0f3460, #533483, #0f3460);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.cover-letters-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cover-letters-table th,
+.cover-letters-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.cover-letters-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+.cover-letters-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.cover-letters-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.download-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:85%;
+    margin-left: 0.8rem;
+
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
