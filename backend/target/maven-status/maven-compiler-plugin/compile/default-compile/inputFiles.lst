@@ -1,0 +1,17 @@
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/DynamicCoverLetterApplication.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/controller/CoverLetterController.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/controller/FrontendController.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/controller/ProfileController.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/controller/UserController.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/entity/CoverLetter.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/entity/CoverLetterRequest.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/entity/Education.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/entity/Experience.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/entity/Profile.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/entity/User.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/repository/CoverLetterRepository.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/repository/ProfileRepository.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/repository/UserRepository.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/service/CoverLetterService.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/service/ProfileService.java
+/Users/poojaraju/Downloads/Archive/dynamic-cover-letter/backend/src/main/java/com/example/dynamic_cover_letter/service/UserService.java

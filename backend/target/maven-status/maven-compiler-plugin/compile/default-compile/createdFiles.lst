@@ -1,0 +1,17 @@
+com/example/dynamic_cover_letter/entity/Profile.class
+com/example/dynamic_cover_letter/entity/Education.class
+com/example/dynamic_cover_letter/controller/ProfileController.class
+com/example/dynamic_cover_letter/entity/CoverLetter.class
+com/example/dynamic_cover_letter/service/ProfileService.class
+com/example/dynamic_cover_letter/service/UserService.class
+com/example/dynamic_cover_letter/DynamicCoverLetterApplication.class
+com/example/dynamic_cover_letter/controller/FrontendController.class
+com/example/dynamic_cover_letter/entity/User.class
+com/example/dynamic_cover_letter/controller/UserController.class
+com/example/dynamic_cover_letter/repository/UserRepository.class
+com/example/dynamic_cover_letter/repository/ProfileRepository.class
+com/example/dynamic_cover_letter/entity/Experience.class
+com/example/dynamic_cover_letter/repository/CoverLetterRepository.class
+com/example/dynamic_cover_letter/controller/CoverLetterController.class
+com/example/dynamic_cover_letter/entity/CoverLetterRequest.class
+com/example/dynamic_cover_letter/service/CoverLetterService.class
