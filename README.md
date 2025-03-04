@@ -33,7 +33,7 @@ Make sure you have the following installed:
 4. **MySQL (Optional for Production)**
    - If using MySQL, create a database:
      ```sql
-     CREATE DATABASE cover_letter;
+     CREATE DATABASE cover_letter_db;
      ```
 
 ## **Installation**
